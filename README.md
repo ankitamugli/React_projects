@@ -92,5 +92,3 @@ This repository is created for learning and practicing React.js concepts through
 
 GitHub: https://github.com/ankitamugli
 
-
-If you find this repository useful, consider giving it a star.
