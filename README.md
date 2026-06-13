@@ -94,13 +94,3 @@ npm run dev
 * Event Handling
 * Form Validation
 * API Integration
-
-## 👩‍💻 Author
-
-Ankita Mugli
-
-GitHub: https://github.com/ankitamugli
-
-## ⭐ Support
-
-If you find this repository useful, please give it a Star ⭐ and share it with others.
