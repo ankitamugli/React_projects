@@ -1,62 +1,51 @@
-import React from "react"
-// import Increment from "./mycomp/Increment"
-// import Decrement from "./mycomp/Decrement"
-// import Reset from "./mycomp/Reset"
-// import Toggle from "./mycomp/Toggle"
-// import BackgroundColor from "./mycomp/Backgroundcolor"
-// import StudentName from "./mycomp/StudentName"
-// import EvenOdd from "./mycomp/EvenOdd"
-// import HideShow from "./mycomp/HideShow"
-// import LikeButton from "./mycomp/LikeButton"
-// import InputField from "./mycomp/InputFeild"
-// import StudentDetails from "./mycomp/StudentDetails"
-// import Eligiabletovote from "./ConditionalRendering/Eligiabletovote"
-// import Light from "./mycomp/Light"
-// import LoginLogout from "./mycomp/Loginout"
-// import CharacterCounter from "./mycomp/Charctercount"
-// import Temperature from "./mycomp/Tempature"
-import List from "./components/28may/List"
-import List5 from "./components/28may/List5";
-// import List1 from "./components/28may/List1"
-// import List2 from "./components/28may/List2"
-// import List3 from "./components/28may/List3"
-// import List4 from "./components/28may/List4"
+import React from "react";
+import FnState from "./components/usestate/FnState";
+import NameChange from "./components/usestate/NameChange";
+import DecreseCounter from "./components/usestate/DecreseCounter";
+import Reset from "./components/usestate/Reset";
+import ToggleText from "./components/usestate/ToggleText";
+import BackGroundclr from "./components/usestate/BackGroundclr";
+import HideShow from "./components/usestate/HideShow";
+import Display from "./components/usestate/Display";
+import Like from "./components/usestate/Like";
+import Addskill from "./components/usestate/Addskill";
+import ChangeAge from "./components/usestate/ChangeAge";
+import Task from "./components/usestate/Task";
+import EvenOdd from "./components/usestate/EvenOdd";
+import FetchData from "./components/hook/UseEffect/FetchData";
+import Task2 from "./components/hook/UseEffect/Task2";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-
-
+// import Login from "./components/Render/Login";
+// import Home from "./components/Render/Home";
+// import Signup from "./components/Render/Signup";
+// import About from "./components/Render/About";
 
 function App() {
-  
-
   return (
     <>
-    {/* <Increment/>
-    <Decrement/>
-    <Reset/>
-    <Toggle/>
-    <BackgroundColor/>
-    <StudentName/>
-    <EvenOdd/>
-    <HideShow/>
-    <LikeButton/>
-    <InputField/>
-    <StudentDetails/>
-    <Light/>
-    <LoginLogout/>
-    <CharacterCounter/>
-    <Temperature/>
-    <Eligiabletovote/> */}
-     {/* <List/> */}
-    {/* <List1/>
-    <List2/>
-    <List3/> 
-    <List4/> */}
-    <List5/>
-   
 
-   
+    {/* <FnState/>
+    <NameChange/>
+    <DecreseCounter/>
+    <Reset/>
+    <ToggleText/>
+    <BackGroundclr/>
+    <HideShow/>
+    <Display/>
+    <Like/>
+    <Addskill/>
+    <ChangeAge/>
+    <Task/>
+    <EvenOdd/>
+
+    <FetchData/> */}
+    <Task2/>
+  
+    
     </>
-  )
+    
+  );
 }
 
 export default App;
