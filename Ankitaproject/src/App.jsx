@@ -14,6 +14,8 @@ import Task from "./components/usestate/Task";
 import EvenOdd from "./components/usestate/EvenOdd";
 import FetchData from "./components/hook/UseEffect/FetchData";
 import Task2 from "./components/hook/UseEffect/Task2";
+import DomManupulation from "./components/hook/DomManupulation/DomManupulation";
+import SettingTimer from "./components/hook/DomManupulation/SettingTimer";
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // import Login from "./components/Render/Login";
@@ -40,7 +42,9 @@ function App() {
     <EvenOdd/>
 
     <FetchData/> */}
-    <Task2/>
+    {/* <Task2/>
+    <DomManupulation/> */}
+    <SettingTimer/>
   
     
     </>
