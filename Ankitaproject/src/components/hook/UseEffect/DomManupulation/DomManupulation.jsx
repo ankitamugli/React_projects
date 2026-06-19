@@ -1,7 +1,4 @@
 import React, { useEffect, useState } from 'react'
-
-
-
 function DomManupulation() {
     const[title,setTitle]=useState("doraproject")
     useEffect(

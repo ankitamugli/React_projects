@@ -1,51 +1,36 @@
-import React from "react";
-import FnState from "./components/usestate/FnState";
-import NameChange from "./components/usestate/NameChange";
-import DecreseCounter from "./components/usestate/DecreseCounter";
-import Reset from "./components/usestate/Reset";
-import ToggleText from "./components/usestate/ToggleText";
-import BackGroundclr from "./components/usestate/BackGroundclr";
-import HideShow from "./components/usestate/HideShow";
-import Display from "./components/usestate/Display";
-import Like from "./components/usestate/Like";
-import Addskill from "./components/usestate/Addskill";
-import ChangeAge from "./components/usestate/ChangeAge";
-import Task from "./components/usestate/Task";
-import EvenOdd from "./components/usestate/EvenOdd";
-import FetchData from "./components/hook/UseEffect/FetchData";
-import Task2 from "./components/hook/UseEffect/Task2";
-import DomManupulation from "./components/hook/DomManupulation/DomManupulation";
-import SettingTimer from "./components/hook/DomManupulation/SettingTimer";
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React, { Suspense, lazy } from "react";
+import Hello from "./components/hook/UseEffect/Controlledcomponent/Hello";
+import Para from "./components/hook/statelifiting/Para";
+import Btn from "./components/hook/statelifiting/Btn";
+import Lazzy from "./components/hook/lazyloading/Lazzy";
 
-// import Login from "./components/Render/Login";
-// import Home from "./components/Render/Home";
-// import Signup from "./components/Render/Signup";
-// import About from "./components/Render/About";
+
+const Lazzy = lazy(() =>
+  import("./components/hook/lazyloading/Lazzy")
+);
+
+
+
 
 function App() {
   return (
     <>
 
-    {/* <FnState/>
-    <NameChange/>
-    <DecreseCounter/>
-    <Reset/>
-    <ToggleText/>
-    <BackGroundclr/>
-    <HideShow/>
-    <Display/>
-    <Like/>
-    <Addskill/>
-    <ChangeAge/>
-    <Task/>
-    <EvenOdd/>
+    {/* <Hi/>
+    <Hello/> */}
+    
+{/*        
+        <Btn username={username} setusername={setusername} />
+      <Para username={username} /> */}
 
-    <FetchData/> */}
-    {/* <Task2/>
-    <DomManupulation/> */}
-    <SettingTimer/>
+      <Suspense fallback={<h1>loading.....</h1>}>
+      <Lazzy/>
+      </Suspense>
+
+
   
+    
+
     
     </>
     
