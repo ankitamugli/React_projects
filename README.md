@@ -81,7 +81,3 @@ Contributions are welcome!
 5. Create a Pull Request
 
 
-
-## ⭐ Support
-
-If you found this repository helpful, please give it a ⭐ on GitHub.
