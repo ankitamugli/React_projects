@@ -57,32 +57,6 @@ A collection of React.js projects created to practice and demonstrate core React
 - Routing
 - API Integration
 
-## 🛠 Installation
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/ankitamugli/React_projects.git
-```
-
-2. Navigate to project folder
-
-```bash
-cd React_projects
-```
-
-3. Install dependencies
-
-```bash
-npm install
-```
-
-4. Start the development server
-
-```bash
-npm start
-```
-
 ## 📸 Screenshots
 
 Add screenshots of your projects here.
