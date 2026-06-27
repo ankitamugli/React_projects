@@ -57,10 +57,6 @@ A collection of React.js projects created to practice and demonstrate core React
 - Routing
 - API Integration
 
-## 📸 Screenshots
-
-Add screenshots of your projects here.
-
 ## 🎯 Purpose
 
 This repository is created for:
@@ -70,14 +66,6 @@ This repository is created for:
 - Building portfolio projects
 - Interview preparation
 
-## 🤝 Contributing
 
-Contributions are welcome!
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to your branch
-5. Create a Pull Request
 
 
