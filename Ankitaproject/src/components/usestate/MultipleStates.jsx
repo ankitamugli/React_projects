@@ -23,10 +23,8 @@
 //     </div>
 //   );
 // }
-
 // export default Student;
 
-// import React, { useState } from 'react';
 
 
 
@@ -47,14 +45,11 @@
 //     </div>
 //   );
 // }
-
 // export default FontSize;
 
 // import React, { useState } from 'react';
-
 // function Light() {
 //   const [light, setLight] = useState(false);
-
 //   return (
 //     <div>
 //       <h2>{light ? "Light ON" : "Light OFF"}</h2>
@@ -65,7 +60,6 @@
 //     </div>
 //   );
 // }
-
 // export default Light;
 
 import React, { useState } from 'react';
