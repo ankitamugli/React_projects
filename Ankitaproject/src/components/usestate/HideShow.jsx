@@ -11,8 +11,7 @@ function HideShow() {
     <div>
       {show && <p>This is a paragraph </p>}
 
-      <button onClick={toggleParagraph}>
-        {show ? "Hide" : "Show"}
+      <button onClick={toggleParagraph}>{show ? "Hide" : "Show"}
       </button>
     </div>
   );
