@@ -8,15 +8,11 @@ function  List1(){
              Fet.map((x)=>{
                 if(x%2!=0){
                     return <li>{x}</li>;
-                }
-                
-            })
-            
+                }     
+            })   
             }
         </ol> }
-
         </>
     )
-
 
 }export default List1;
